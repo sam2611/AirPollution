@@ -5,7 +5,7 @@ ser = pd.Series(np.random.rand(34))  # to print series
 print(ser)
 d_f = pd.DataFrame(np.random.rand(10, 5), index=np.arange(10))  # to make a dataframe of floating values
 print(d_f)
-d_f.to_csv('floating dataframe.csv')
+d_f.to_csv('floating dataframe.csv')  # creating a csv file for the floating valuse
 d_f[0][0] = 0.111111
 
 print("\n", type(d_f))  # object type data frame
