@@ -24,7 +24,6 @@ pyplot.stackplot(Cities, SO2, NO2, CO, PM2_5, PM10, colors=["g", "r", "y", "m", 
 pyplot.title("AIR QUALITY IN INDIA")
 pyplot.ylabel("AQI")
 pyplot.xlabel("Cities")
-# pyplot.tick_params(axis='x', which='major', labelsize=3)
 pyplot.grid(True, color="c")
 pyplot.legend()
 pyplot.show()
